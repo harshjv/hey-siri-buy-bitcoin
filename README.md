@@ -9,7 +9,7 @@ This application lets you instruct your own Zebpay account to buy bitcoin in it 
 
 ## Preview
 
-[![Hey siri, buy some bitcoin for me](./demo.gif)](https://twitter.com/harshjv/status/1320007969459691521)
+[![Hey siri, buy some bitcoin for me](./preview.gif)](https://twitter.com/harshjv/status/1320007969459691521)
 
 
 ## Prerequisites
