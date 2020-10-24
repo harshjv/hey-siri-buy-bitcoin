@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
   const { body, headers } = req
 
   if (headers['x-passcode'] !== APP_PASSCODE) {
-    return res.status(401).send('Something went wrong')
+    return res.status(401).send('You are unauthorized to perform this action')
   }
 
   if (!body) {
@@ -27,5 +27,5 @@ module.exports = async (req, res) => {
     return res.status(400).send('Invalid amount')
   }
 
-  res.send(await zebpay.buyBtc(body.amount))
+  res.send(await zebpay.buyBtc(amount))
 }
