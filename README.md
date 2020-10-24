@@ -59,7 +59,7 @@ ZEBPAY_ACCESS_TOKEN=
 
 1. Open Settings app
 2. Open Shortcuts settings
-3. Toggle on "Allow Untrusted Shortcuts"
+3. Toggle on **Allow Untrusted Shortcuts**
 4. Open https://www.icloud.com/shortcuts/d79b8d1b83444b88acce11bb74b2d1bd on your device
 
 
