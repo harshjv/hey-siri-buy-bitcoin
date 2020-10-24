@@ -1,8 +1,8 @@
 # 🌟 Ask Siri to buy some bitcoin for you
 
-This application lets you instruct your own Zebpay account to buy bitcoin in it via Siri 🐉
+This application lets you instruct your own Zebpay account to buy bitcoin via Siri 🐉
 
-> :warning: This application uses your own Zebpay account to perform the purchase. You are responsible to safe guard your own instance.
+> :warning: This application uses your own Zebpay account to perform the purchase. You are responsible for your own application instance.
 >
 > :warning: Remember to safely withdraw your bitcoin back to your own wallet.
 
