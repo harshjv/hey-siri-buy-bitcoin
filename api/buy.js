@@ -1,14 +1,14 @@
 const zebpay = require('../zebpay')
 
 const {
-  API_PASSCODE,
+  APP_PASSCODE,
   MAX_AMOUNT
 } = process.env
 
 module.exports = async (req, res) => {
   const { body, headers } = req
 
-  if (headers['x-passcode'] !== API_PASSCODE) {
+  if (headers['x-passcode'] !== APP_PASSCODE) {
     return res.status(401).send('Something went wrong')
   }
 

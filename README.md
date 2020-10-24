@@ -22,7 +22,7 @@ This application lets you instruct your own Zebpay account to buy bitcoin in it 
 ## Environment variables
 
 ```
-API_PASSCODE=
+APP_PASSCODE=
 APP_MAX_AMOUNT=
 ZEBPAY_CLIENT_ID=
 ZEBPAY_ACCESS_TOKEN=
@@ -47,7 +47,7 @@ ZEBPAY_ACCESS_TOKEN=
   2. Click on **Show More**
   3. Change method to `POST`
   4. Click on **Headers** & then **Add new header**
-  5. Set **Key** to `X-Passcode` & value to your `API_PASSCODE`
+  5. Set **Key** to `X-Passcode` & value to your `APP_PASSCODE`
 6. Change **Request Body** to `Form`
 7. Click on **Add new field** & select `Text`
 7. Set **Key** to `amount`
