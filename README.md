@@ -7,7 +7,7 @@ This application lets you instruct your own Zebpay account to buy bitcoin in it 
 > :warning: Remember to safely withdraw your bitcoin back to your own wallet.
 
 
-## Demo
+## Preview
 
 [![Hey siri, buy some bitcoin for me](./demo.gif)](https://twitter.com/harshjv/status/1320007969459691521)
 
