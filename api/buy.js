@@ -13,19 +13,17 @@ module.exports = async (req, res) => {
   }
 
   if (!body) {
-    return res.status(400).send('Something went wrong')
+    return res.status(400).send('Invalid amount')
   }
 
   let { amount } = body
   amount = parseInt(amount)
 
-  if (!amount) {
+  if (!amount || !(amount <= MAX_AMOUNT)) {
     return res.status(400).send('Invalid amount')
   }
+  
+  const response = await zebpay.buyBtc(amount)
 
-  if (!(amount <= MAX_AMOUNT)) {
-    return res.status(400).send('Invalid amount')
-  }
-
-  res.send(await zebpay.buyBtc(amount))
+  res.send(response)
 }
