@@ -5,6 +5,9 @@ This application lets you instruct your own Zebpay account to buy bitcoin via Si
 > :warning: This application uses your own Zebpay account to perform the purchase. You are responsible for your own application instance.
 >
 > :warning: Remember to safely withdraw your bitcoin back to your own wallet.
+>
+> :pencil: [Tutorial](https://harshjv.com/blog/ask-siri-to-buy-some-bitcoin-for-you/)
+
 
 
 ## Preview
@@ -53,6 +56,7 @@ ZEBPAY_ACCESS_TOKEN=
 7. Set **Key** to `amount`
 8. Click on the **value field**, and select `Provided Input`
 9. Search for **Show Result** action & add it
+10. Name your shortcut `Buy Bitcoin`
 
 
 ## Create your shortcut using link
@@ -60,7 +64,7 @@ ZEBPAY_ACCESS_TOKEN=
 1. Open Settings app
 2. Open Shortcuts settings
 3. Toggle on **Allow Untrusted Shortcuts**
-4. Open https://www.icloud.com/shortcuts/b24637d352614badafbf272416ec5818 on your device
+4. Open [Buy Bitcoin shortcut](https://www.icloud.com/shortcuts/b24637d352614badafbf272416ec5818) on your device
 
 
 ## License
