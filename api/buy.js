@@ -22,7 +22,7 @@ module.exports = async (req, res) => {
   if (!amount || !(amount <= MAX_AMOUNT)) {
     return res.status(400).send('Invalid amount')
   }
-  
+
   const response = await zebpay.buyBtc(amount)
 
   res.send(response)
